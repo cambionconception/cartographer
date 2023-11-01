@@ -3,16 +3,16 @@ body, html {
     margin: 0;
     background-color: #e2d8d8;
 }
-.navbar {
+.header {
     overflow: hidden;
-    background-color: #0f0937; /* Set the background color */
+    background-color: #0f0937; 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 15%;
 }
 
-.navbar a {
+.header a {
     float: left;
     display: block;
     color: white;
@@ -21,7 +21,13 @@ body, html {
     text-decoration: none;
 }
 
-.navbar a:hover {
-    background-color: #ddd; /* Change background color on hover */
+.header a:hover {
+    background-color: #ddd;
     color: black;
+}
+.pages {
+     
+    background-color: #ffffff; 
+    
+    
 }
