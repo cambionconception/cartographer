@@ -1,21 +1,34 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color: #e2d8d8;
+    width: 100%;
+    background-color: #ebeaea;
+    
+   
 }
+
+.mastercontainer {
+    height: 100%;
+    width: 100%
+}
+
 .header {
-    overflow: hidden;
-    background-color: #0f0937; 
+
+    background-color: #ebeaea; 
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15%;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    top: 0;
+  
 }
 
 .header a {
     float: left;
     display: block;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -25,9 +38,24 @@ body, html {
     background-color: #ddd;
     color: black;
 }
+
 .pages {
-     
-    background-color: #ffffff; 
-    
-    
+    margin-top: 100px;
+    background-color: #ebeaea;  
+    height: 100%;
+    width: 100%;
 }
+
+.colorunderlay {
+    position: absolute;
+    background-color: #ffffff;
+    height: 90%;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    
+    
+
+}
+
+
