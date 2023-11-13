@@ -19,7 +19,7 @@ body, html {
     justify-content: center;
     align-items: center;
     position: fixed;
-    height: 100px;
+    height: 75px;
     width: 100%;
     top: 0;
   
@@ -40,7 +40,7 @@ body, html {
 }
 
 .pages {
-    margin-top: 100px;
+    margin-top: 75px;
     background-color: #ebeaea;  
     height: 100%;
     width: 100%;
@@ -53,9 +53,23 @@ body, html {
     width: 90%;
     left: 5%;
     right: 5%;
-    
-    
 
+}
+.aboutcontent {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+#title {
+    padding-top: 2%;
+    font-family: 'EB Garamond'; font-size: 40px; font-weight: bold;
+}
+
+
+#content { 
+    padding-top: 5%;
+    font-family: 'EB Garamond'; font-size: 18px;
 }
 
 
